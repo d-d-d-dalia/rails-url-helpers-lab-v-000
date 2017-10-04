@@ -1,4 +1,7 @@
 class ChangeActiveDefaultToFalseForStudents < ActiveRecord::Migration
-  def change
-  end
+
+    def change
+      change_column :students, :active, :boolean, :default => true
+    end
+
 end
