@@ -5,4 +5,5 @@ class Student < ActiveRecord::Base
 
   def active
   end
+  
 end
